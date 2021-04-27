@@ -1,7 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
 - [大数据量的去重](#%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%87%8F%E7%9A%84%E5%8E%BB%E9%87%8D)
   - [说明](#%E8%AF%B4%E6%98%8E)
   - [使用方式](#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
@@ -16,7 +12,7 @@
 > 在查询了许多资料以后，决定用 `布隆过滤器` ，具体关于布隆过滤器
 > 的解释网上可以搜到，已经实现python库 `pybloom` , 但是不满足持久化的需求  
 > 后来看到大神大神崔庆才针对scrapy写的 `Scrapy-Redis-BloomFilter` 以后，
-> 本着拿来主义的原则，小改了一下集成到了代码里，好用！  
+> 本着拿来主义的原则，小改了一下集成到了项目里，好用！  
 > 代码在这里[代码](./utils/bloomfilter.py)
 
 ### 使用方式
