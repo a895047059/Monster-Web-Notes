@@ -1,6 +1,15 @@
-[toc]
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [大数据量的去重](#%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%87%8F%E7%9A%84%E5%8E%BB%E9%87%8D)
+  - [说明](#%E8%AF%B4%E6%98%8E)
+  - [使用方式](#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 大数据量的去重
-###说明
+### 说明
 > 需求是对一亿以上的数据量进行重复判断，而且要满足时间需求  
 > 算了下， 32位的hash， 存在redis里面的话至少需要 `32*100000000/1024/1024=3052M` 
 > 至少需要3G的内存才能存的下  
