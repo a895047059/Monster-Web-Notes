@@ -92,4 +92,4 @@ class Singleton(object):
                     Singleton._instance = object.__new__(cls)  
         return Singleton._instance
 ```
-调用你采用`obj = Singleton()`即可
+采用`obj = Singleton()`调用即可
